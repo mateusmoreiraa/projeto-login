@@ -52,6 +52,55 @@ section#login > div#imagem {
     background-size: cover;
 }
 
-section#login > div#formulario {
+section > div > form {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+div#formulario > h1 {
+    padding: 10px;
+    text-align: center;
+
+}
+div#formulario > p {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+form > input {
+    height: 35px;
+    width: 200px;
+    margin: 4px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#enviar {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    padding: 0px;
+    border: 1px solid #3e02a6a9;
+}
+
+input#enviar:hover{
+    background-color: #3e02a6;
+    color: white;
+}
+
+form > p {
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
 }
