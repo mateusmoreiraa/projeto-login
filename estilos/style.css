@@ -44,8 +44,7 @@ section#login{
 }
 
 section#login > div#imagem {
-    background: #3e02a6 url(../imagens/cores.jpg) no-repeat;
-    background-image: url(imagens/cores.jpg);
+    background: #3e02a6 url(../cores.jpg) no-repeat;
     height: 200px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
